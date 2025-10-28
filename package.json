@@ -1,0 +1,30 @@
+{
+  "name": "ml-amz-pricer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "worker": "tsx worker/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.43.4",
+    "bullmq": "^4.16.0",
+    "exceljs": "^4.4.0",
+    "ioredis": "^5.4.1",
+    "next": "14.2.5",
+    "node-fetch": "^2.6.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "xlsx": "^0.18.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/node-fetch": "^2.6.4",
+    "tsx": "^4.7.0",
+    "typescript": "^5.6.2"
+  }
+}
